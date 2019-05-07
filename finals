@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<title>Karma's Kitchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;font-size:150%}
+.w3-bar-block .w3-bar-item {padding:20px}
+h1{font-size:200%;
+   text-shadow: 5px 8px grey;
+   }
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding:10 ;
+  background-color:grey;
+  color:white;
+  text-align:center;
+  }
+ul{list-style-type:disc;
+  color:black;
+  text-align:left;
+  text-decoration: none;}
+ dl {
+	text-align:left;
+	}
+</style>
+<body>
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="#veg" onclick="w3_close()" class="w3-bar-item w3-button">VEGETARIAN RECIPES</a>
+  <a href="#non-veg" onclick="w3_close()" class="w3-bar-item w3-button">NON-VEGETARIAN RECIPES</a>
+  <a href="#spices" onclick="w3_close()"class="w3-bar-item w3-button">SPICES</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">ANY QUESTIONS?</a>
+</nav>
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16"><h1><b>KARMA'S KITCHEN:A SIMPLIFIED NEPALI RECIPES </b></h1></div>
+  </div>
+</div>
+
+  <div class="w3-container w3-padding-16 w3-center">  
+<hr id="home"> 
+<img src="home.jpg"style="width:30%;border-style: ridge;
+  border-color:grey; border-width: 15px;">
+	<div class="center-left">  
+ <p>I hope you all enjoy cooking these simple Nepali recipes and share it with your loved ones.<br>Each recipe is based on two people servings and most of the ingredients are found in your local grocery stores.
+ <br>I am not a professional cook but I hope these recipes will bring new flavors to your life.<br>PLEASE DO NOT FORGET TO ENJOY COOKING AND MAKE MISTAKES!</p>
+  </div>  
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<hr id="veg"> 
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h2>BUCKWHEAT PANCAKE</h2>
+	<img src="buckwheat.jpg"style="width:60%;border-style: ridge;
+  border-color:grey; border-width: 15px;">
+	<div class="center-left">  
+	  <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>2 cups of buckwheat powder</li>
+   <li>2 teaspoon of Salt</li>
+    <li>1 cup of Water</li>
+	<li>1/2 cup of milk</li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> <a>Put the powder and salt in a mixing bowl.</a></li>
+    <li> <a>Add salt and the water to the mix and whisk everything.</a></li>
+    <li> <a>Now add the milk slowly while whisking the mixture.</a></li>
+     <li> <a>Once the mixture has no lumps, prepare the heating pan.</a></li>
+    <li> <a>Spray some oil on the non stick heating pan and add half cup of mixture in a circle shape.</a></li>
+    <li> <a>Once you see the bubbling on the mixture, turn it on the other side.</a></li>
+	<li><a><mark>After it's cooked, Enjoy it with a side of honey,red pepper paste, butter tea or any type of curry!</mark><a/></li>
+</div>
+</div>
+      <div class="w3-container w3-padding-32 w3-center">  
+      <h2>BUTTER TEA</h2>
+      <div class="center">
+      <img src="tea.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 whole stick salty Butter</li>
+   <li>2 teaspoon of Salt</li>
+   <li>1 cup of Tea leaves</li>
+   <li>2 cups of Milk </li>
+    <li>1 cup of Water</li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Put milk and water in the heating pot on the medium heat.</li>
+    <li> After the mixture startes to boil, add the stick of butter and start stirring it after it melts completely.</li>
+    <li> Then add the tea leaves and turn the heat down to low.</li>
+     <li> Once you see the change in the color, start stiring it in one circular motion.</li>
+    <li> Once the moxture starts to boil, turn off the heat and set it aside for a minute.</li>
+    <li> Use a tea strainer while pouring the tea.</li>
+	<li> <mark>Enjoy your tea with bread or crackers!</mark></li>
+    </div>
+	</div>
+	<div class="w3-container w3-padding-32 w3-center">  
+      <h2>CHICKPEAS CURRY</h2>
+      <div class="center">
+      <img src="chickpeas.jpg" style="width:60%;border-style: ridge;border-color:grey;border-width: 15px;">
+	  <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 can of chickpeas</li>
+   <li>2 teaspoon of Salt</li>
+    <li>1 teaspoon of turmeric and cumin powder</li>
+	<li>1 chopped tomatoes and half red onions</li>
+	<li>some corainder for garnish</li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat some oil on the non sticky pan.</li>
+    <li> Add chopped onions and tomatoes and add all the spices while mixing it well.</li>
+    <li> Now add the chickpeas along with the liquid inside the can.</li>
+     <li> Mix everything well and cook it on medium until desired gravy.</li>
+    <li> Garnish with some coriander and green chillies if you desire.</li>
+	<li> <mark> Enjoy the curry with rice or tortilla bread! </mark></li>
+    </div>
+  </div>
+	<div class="w3-container w3-padding-32 w3-center">  
+      <h2>EGGPLANT SUMMER SALAD</h2>
+      <div class="center">
+      <img src="eggplant.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 whole long eggplant(chop it in half in the middle) </li>
+   <li>1 teaspoon of peppercorn(optional) or sprinkle some black pepper</li>
+   <li>1 teaspoon of fish sauce and soya sauce</li>
+   <li>2 cup of water</li>
+    <li>1 table spoon of seasame oil</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>2 chopped shallots </li>
+	<li>2 teaspoon of lemon juice</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Boil water in a frying pan on medium heat.</li>
+    <li> After the water starts to boil, add the eggplant and then cover the lid.</li>
+    <li> Once the outer color of the eggplant changes, turn off the heat. </li>
+     <li>Chop the eggplant into squqre shapes once it cools down.</li>
+    <li>Put the eggplant into a container and add all the ingredients.</li>
+    <li> Mix everything well and add salt if needed.</li>
+	<li><mark>Enjoy this salad as a dish side for babrbecue meat platters!</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>EGG CURRY</h2>
+      <div class="center">
+      <img src="egg.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>4 peeled and chopped hard boiled eggs </li>
+   <li>2 chopped tomatoes</li>
+   <li>2 cup of water</li>
+    <li>2 table spoon of olive oil</li>
+	<li>2 tablespoon of salt or according to taste</li>
+	<li>2 chopped shallots </li>
+	<li>2 teaspoon of lemon juice</li>
+	<li>2 cloves of garlic </li>
+	<li>4 dried bay leaves </li>
+	<li>2 teaspoon of turmeric powder and cumin powder </li>
+	<li>1 cup of chopped coriander</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat the pan with olive oil and add chopped garlic.</li>
+    <li> Now add bay leaves and tomatoes to the pan.</li>
+    <li> Once the tomatoes starts to mush up, add both of the powders and mix it well. </li>
+     <li>Add the water and boil it until the gravy thickens.</li>
+    <li>Now add the chopped eggs and shallots to the mix.</li>
+    <li> Turn off the heat and add the lemon juice along with the coriander pieces.</li>
+	<li><mark>Enjoy this curry with a side of rice.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>YELLOW LENTIL SOUP</h2>
+      <div class="center">
+      <img src="yellow.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 cup of washed and soaked red lentils for 30 minutes</li>
+   <li>1 teaspoon of turmeric powder</li>
+   <li>1/2 stick of salted butter</li>
+   <li>2 cup of water</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>2 dried bay leaves </li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat the butter on the saucepan.</li>
+    <li> Drain the water out of the lentils and add it to the saucepan along with the bay leaves.</li>
+    <li> Fry everything well and add the turmeric powder. </li>
+     <li>Now add the water and mix everything well.</li>
+    <li>Cover the lid on medium heat until it starts to boil.</li>
+    <li> Add the salt for the taste.</li>
+	<li><mark>Enjoy this with side of rice or just as a soup.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>GARLIC SPINACH</h2>
+      <div class="center">
+      <img src="spinach.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 bag of frozen spinach or real spinach if you want </li>
+   <li>3 chopped garlic cloves </li>
+   <li>1 teaspoon of soya sauce</li>
+   <li> 1 teaspoon of red pepper powder (optional)</li>
+   <li>1/2 stick of salted butter </li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat up the pan with salted butter.</li>
+    <li> Once it melts, add the garlic and fry it until golden brown.</li>
+    <li> Add the thawed frozen spinach to the pan. </li>
+     <li>Mix everything well and add the soya sauce.</li>
+    <li>Add the red pepper powder and fry until the water evaporates.</li>
+	<li><mark>Enjoy this with rice or any type of bread.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>BOK CHOY STIR-FRY</h2>
+      <div class="center">
+      <img src="bokchoy.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>2 whole bunch of bokchoy washed and cut into half pieces. </li>
+   <li>1 teaspoon of soya sauce</li>
+    <li>1 table spoon of olive oil</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>4 chopped garlic cloves </li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat up the pan with the olive oil.</li>
+    <li> Add the chopped garlic and fry it until golden brown.</li>
+    <li>Now add the prewashed and chopped bokchoy while stirring everything.</li>
+     <li>Add the soy sauce and sprinkle some salt.</li>
+    <li>Cover it until the bokchoy is cooked.</li>
+	<li><mark>Enjoy it with side of rice or bread.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>SPICY POTATO</h2>
+      <div class="center">
+      <img src="potato.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>3 boiled idaho potatoes cut into bit size pieces</li>
+   <li>1 teaspoon of peppercorn(optional) or sprinkle some black pepper</li>
+   <li>1 teaspoon of turmeric and cumin powder.</li>
+    <li>2 table spoon of seasame oil</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>2 chopped shallots </li>
+	<li>2 teaspoon of lemon juice</li>
+	<li> 1 tablespoon of red pepper powder</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> </li>
+    <li> Heat up the pan and add the seasame oil.</li>
+    <li> Add the powders,peppercorn and shallots in the pan. </li>
+     <li>Put the potato pieces in a container and add the oil mixture.</li>
+    <li>Add red pepper powder and lemon juice to the potato mix.</li>
+    <li> Mix everything well and add salt if needed.</li>
+	<li><mark>Enjoy this as an appetizer or side dish.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h2>SPICY OMELETTE</h2>
+      <div class="center">
+      <img src="omelet.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>2 whicked eggs</li>
+   <li>1 teaspoon of turmeric and cumin powder.</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>1 chopped shallots and tomato</li>
+	<li>2 chopped green chillies(optional)</li>
+	<li> 1 tablespoon of red pepper powder</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> </li>
+    <li> Heat up the pan with oil and add the shallots.</li>
+    <li>Add the powders and chillies.</li>
+     <li>Now add the tomatoes and then the egg mixture right after.</li>
+    <li>Let it cook in low heat and once the eggs starts to firm well, flip it on the other side.</li>
+    <li> Once flipped, cook it on medium for a while until fully cooked.</li>
+	<li><mark>Enjoy this with tomato ketchup and mayonese as a garnish.</mark></li>
+    </div>
+	</div>
+<hr id="non-veg">
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>CHICKEN CURRY</h3>
+      <div class="center">
+      <img src="chicken.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+            <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li><a>2 cups of cut chicken thigh pieces</a></li>
+   <li><a>2 teaspoon of turmeric and chilli powder(optional)</a></li>
+   <li><a>2 tablespoon of readymade ginger garlic paste</a> </li>
+   <li><a>1 cup of water </a></li>
+    <li><a>1 cup of canned tomato sauce</a> </li>
+	<li><a> 1 tablespoon of salt or according to taste</a></li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Put milk and water in the heating pot on the medium heat.</li>
+    <li> After the mixture startes to boil, add the stick of butter and start stirring it after it melts completely.</li>
+    <li> Then add the tea leaves and turn the heat down to low.</li>
+     <li> Once you see the change in the color, start stiring it in one circular motion.</li>
+    <li> Once the moxture starts to boil, turn off the heat and set it aside for a minute.</li>
+    <li> Use a tea strainer while pouring the tea. ENJOY YOUR SALTY and BUTTERY goodness!!</li>
+    </div>
+	</div>
+	<div class="w3-container w3-padding-32 w3-center">  
+      <h3>BEEF CURRY</h3>
+      <div class="center">
+      <img src="beef.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+	  <p><b>INGREDIENTS:</b></p>
+<ol>
+	 <li><a>3 cups of sliced beef sirloin</a></li>
+   <li><a>2 teaspoon of turmeric powder,garlic powder and ginger powder</a></li>
+    <li><a>1 small can of tomato paste</a> </li>
+	<li> <a>1/2 chopped red onions</a></li>
+	<li> <a> 1 cup of hot water</a></li>
+	  </ol>
+	  <p><b>RECIPE:</b></p>
+	  <ul>
+	  <li>Heat up pan with some olive oil</li>
+	  <li>Add the onions once the oil is heated.</li>
+	  <li>Now add the meat once onion is brown and keep stiring until there is change of color in the meat.</li>
+	  <li>Now add all the condiments and mix it well.</li>
+	  <li>Then add the tomato paste while stiring everything well and cover it for a minute.</li>
+	  <li>Now add the hot water to the mix and cover it until the meat is cooked.</li>
+	  <li><mark>Enjoy this recipe with a side of rice or tortilla.</mark><li>
+    </div>
+  </div>
+  <div class="w3-container w3-padding-32 w3-center">  
+      <h3>TILAPIA CURRY</h3>
+      <div class="center">
+      <img src="tilapia.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+	  <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li><a>2 pieces of tilapa fillets or a whole pieces of tilapia fish</a></li>
+   <li><a>2 teaspoon of Salt</a></li>
+    <li><a>2 teaspoon of turmeric and cumin powder</a> </li>
+	<li> <a>2 chopped tomatoes</a></li>
+	<li> <a> 4 dried bay leaves </a>
+	<li> <a> ginger and garlic paste or use powders.</> </li>
+	<li> <a> some corainder for garnish</a></li>
+	<li> <a> 2 cups of water</a> </li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Marinate the fish with the spices and garlic ginger paste for an hour.</li>
+    <li> Heat the pan with oil and add the bay leaves.</li>
+    <li> Now add the tomatoes and fry it well.</li>
+     <li> Once the tomato is mushed up, add the water and stir it well.</li>
+    <li> Once the gravy starts to thicken up, add the fish mixture and cover it in medium heat until cooked.</li>
+    <li> Turn off the heat and add the lemon juice along with corainder to the fish curry.</li>
+	<li> <mark> Enjoy this with a side of rice.</mark></li>
+	</div>
+	</div>
+  <div class="w3-container w3-padding-32 w3-center">  
+      <h3>DRY BEEF SALAD</h3>
+      <div class="center">
+      <img src="beef1.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+	  <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li><a>2 cups of boiled sirloin beef chunks</a></li>
+   <li><a>2 teaspoon of Salt</a></li>
+    <li><a>1 teaspoon of turmeric and cumin powder</a> </li>
+	<li><a>1/2 chopped red onion and tomato</a></li>
+	<li> <a>1 tablespoon of sesame oil</a></li>
+	<li> <a> some corainder for garnish</a></li>
+</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Add the boiled sirloin beef in a container.</li>
+    <li> Add chopped onions and tomatoes and add all the spices.</li>
+    <li> Now add the seasame oil and massage the meat well.</li>
+    <li> Garnish with some coriander and enjoy it as an appetizer for any type of drinks.</li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>GROUND TURKEY KEEMA</h3>
+      <div class="center">
+      <img src="turkey.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1lb of ground turkey </li>
+   <li>1 tablespoon of turmeric and cury powder</li>
+    <li>1 tablespoon of olive oil</li>
+	<li>2 chopped shallots and garlic cloves</li>
+	<li>2 cups of frozen peas</li>
+	<li>1 tablespoon of salt or according to taste</li>
+
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li> Heat the pan with oil and add the shallots and garlic mix.</li>
+    <li>Add the spices and mix everything well.</li>
+    <li> Add the ground turkey while stiring eveyrthing. </li>
+     <li>Once the turkey is cooked, add the peas and cover in low heat for a minute.</li>
+    <li> Mix everything well and add salt if needed.</li>
+	<li><mark>Enjoy this with rice.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>PORK CURRY</h3>
+      <div class="center">
+      <img src="pork.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 and 1/2lb of pork chops</li>
+   <li>2 teaspoon of curry powder and cumin powder</li>
+   <li>2 cup of water</li>
+    <li>1 teaspoon of cinnamon powder.</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>1/2 chopped red onions </li>
+	<li> 3 garlic cloves</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li>Heat up the pan with oil and add the garlic pieces along with the onions.</li>
+    <li> Fry everything well and then add all the spices along with the cinammon powder.</li>
+    <li> Now add the pork chop pieces in the pan and fry it well.</li>
+     <li>Chop the eggplant into squqre shapes once it cools down.</li>
+    <li>Add the water once the meat starts to brown.</li>
+    <li> Mix everything well and add salt if needed.</li>
+	<li><mark>Enjoy this curry with a side of rice.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>CHICKEN DRUMSTICK GRAVY</h3>
+      <div class="center">
+      <img src="gravy.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>4 pieces of chicken drumsticks</li>
+   <li>1 whole boiled potato</li>
+   <li>2 cup of water</li>
+    <li>1/2 chopped red onions</li>
+	<li> 4 cloves of garlic </li>
+	<li>1 tablespoon of salt, turmeric,curry and cumin powder</li>
+	<li>2 chopped shallots </li>
+	<li>some cilantro for garnish</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <<li>Heat up the pan with oil and add the garlic pieces along with the onions.</li>
+    <li> Fry everything well and then add all the spices along with the boiled potato.</li>
+    <li> Now add water to the mix and start mushing the potato to create a thicker gravy.</li>
+     <li>Add the chicken drumsticks in the mixture.</li>
+    <li>Cover it until cooked in the medium heat.</li>
+    <li> Once cooked, add the red onions and cilantro at the end.</li>
+	<li><mark>Enjoy this curry with a side of rice.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>BEEF JERKY STIR-FRY</h3>
+      <div class="center">
+      <img src="jerky.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1 big bag of beef jerky meat </li>
+   <li>1 teaspoon of turmeric powder</li>
+   <li>some chilli pepper flakes (optional)</li>
+	<li>1 tablespoon of salt or according to taste</li>
+	<li>1 chopped shallots and tomatoes</li>
+	<li>1/2 of lemon</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+    <li>Heat some oil in the pan and fry some garlic pieces.</li>
+     <li>Add a pinch of turmeric powder and beef jerky pieces (any kind or flavor) and mix it well.</li>
+     <li>Now add onion and tomato pieces along with salt and pepper seasonings.</li>
+     <li>Add chilli pepper flakes.</li>
+      <li>Squeeze some lemon and it's ready to be served.</li>
+      <li><mark>Try this with cold beer or as a side dish.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>PORK "CHILLY" STIR-FRY</h3>
+      <div class="center">
+      <img src="pork2.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>2 cups of sliced pork pieces</li>
+   <li>1 bell pepper, tomato, red onion and red chilly</li>
+	<li>1 tablespoon of salt and black pepper</li>
+	<li>1 tablespoon of tomato ketchup</li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+   <li>Cut some pork pieces, bell peppers, tomatoes, red onions and red chilies. </li>
+   <li>Heat some oil and add the pork only. </li>
+   <li>After pan frying it for a minute, add remaining veggies except tomatoes.</li>
+   <li>Add some salt and pepper and mix everything well.</li>
+   <li>After a while, add tomatoes and mix everything well with ketchup sauce.</li>
+   <li>Cook until meat is tender!</li>
+   <li><mark> Enjoy this dish with a side of cold beer or as an appetizer.</mark></li>
+    </div>
+	</div>
+<div class="w3-container w3-padding-32 w3-center">  
+      <h3>GOAT SEKUWA (DRY)</h3>
+      <div class="center">
+      <img src="goat.jpg" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;">
+      <p><b>INGREDIENTS:</b></p>
+<ol>
+   <li>1lb of goat pieces with bones</li>
+   <li>1  tomato, red onion and red chilly</li>
+	<li>1 tablespoon of salt and black pepper</li>
+	<li>1 tablespoon of curry powder and cumin powder</li>
+	<li>4 cloves of garlic </li>
+	<li> some chopped coriander and green onions to garnish </li>
+	</ol>
+<p><b>RECIPE:</b></p>
+<ul>
+   <li>Heat the oven on 450 degrees Fahrenheit. </li>
+   <li>While the oven is heating up, put the meat in a container and mix it with the spices. </li>
+   <li>Assemble the meat into the oven pan and bake it for 20 minutes on each sides.</li>
+   <li>Once the meat is done, put it in a container and add the remaining tomato, onion and chilly.</li>
+   <li>Garnish with coriander and green onions.</li>
+   <li><mark> Enjoy this dish as an appetizer or with rice.</mark></li>
+    </div>
+	</div>
+<hr id="spices">
+<div class="w3-container w3-padding-32 w3-center">
+  <h4> <b>COMMONLY USED NEPALI SPICES FOUND IN GROCERY STORES</h4>
+ <img src="spices.jpg" class="w3-image" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;>
+    <div class="center-left">
+<ul>
+<li> Dry Bay Leaves: nutty peppery flavor that balances out the saltiness.</li>
+<li> Turmeric Powder: main spice in curry that has a warm yellow color withbitter taste.</li>
+<li> Red Pepper Chilli flakes/chilli powder: cayenne-type peppers used to add heat in the food.</li>
+<li> Sesame Seeds/oil: nutty taste of flavor used to enhance flavor of the oil</li>
+<li> Coriander seeds/fresh corainder: best way to level up the flavor of any recipe which has a fresh touch.</li>
+<li> Ginger and Garlic Powder: staple condiments for brining the flavor.</li>
+<li>Cumin Powder: an essential spice for making meat curries.</li>
+	</div>
+<hr id="about">
+<div class="center-left">
+  <div class="w3-container w3-padding-32 w3-center">  
+    <img src="about.jpg" class="w3-image" style="width:60%;border-style: ridge; border-color:grey;border-width: 15px;>
+    <div class="center-left">
+      <h5><i>FOOD IS A UNIVERSAL LANGUAGE!</i></h5>
+     <p> My name is Karma Gurung, a big foodie by heart who loves to try authentic local foods and is a huge fan of Chef Anthony Bourdain.Cooking is one of the most theraputic and adventorous thing in my life. Being able to taste different types of food and try to recreate the same recipe on my own is the most satisfying thing. Ever since I came to America to pursue my education dream, I had to satisfy my hunger for homemade foods. Since, I could not find the exact ingredients or spices to make most of the Nepali dishes, I started to experiment with new things and ended up creating my own version of homemade recipes. I am always excited to teach and share my motherland food with others because it brings everyone together.</p>
+    </div>
+  </div>
+   <hr id="contact">
+<footer class="w3-row-padding w3-padding-40">
+ <div class="w3-third">
+<form method= "get">
+<div class="footer">
+        First Name:<input type="text" name="fname" id="fname"><br><br>
+		
+	    Last Name:<input type="text" name="lname" id="lname"><br><br>
+		
+        E-mail: <input type="text" name="email" id="email"><br><br>
+		
+	    Comments:<br>
+	   <textarea name="comments" id="comments" rows="4"
+	    cols="40"></textarea><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
